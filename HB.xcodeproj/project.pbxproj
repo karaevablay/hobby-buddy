@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		6D2564762A37910E009D4E88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564752A37910E009D4E88 /* AppDelegate.swift */; };
 		6D2564782A37910E009D4E88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564772A37910E009D4E88 /* SceneDelegate.swift */; };
-		6D25647A2A37910E009D4E88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564792A37910E009D4E88 /* ViewController.swift */; };
 		6D25647D2A37910E009D4E88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D25647B2A37910E009D4E88 /* Main.storyboard */; };
 		6D25647F2A37910F009D4E88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D25647E2A37910F009D4E88 /* Assets.xcassets */; };
 		6D2564822A37910F009D4E88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2564802A37910F009D4E88 /* LaunchScreen.storyboard */; };
+		6D25648B2A37921A009D4E88 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6D25648A2A37921A009D4E88 /* data.json */; };
+		6D2564952A379286009D4E88 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25648D2A379286009D4E88 /* RealmHelper.swift */; };
+		6D2564962A379286009D4E88 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25648E2A379286009D4E88 /* Database.swift */; };
+		6D2564972A379286009D4E88 /* StorageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25648F2A379286009D4E88 /* StorageHelpers.swift */; };
+		6D2564982A379286009D4E88 /* BatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564902A379286009D4E88 /* BatchService.swift */; };
+		6D2564992A379286009D4E88 /* Queries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564912A379286009D4E88 /* Queries.swift */; };
+		6D25649A2A379286009D4E88 /* DatabaseHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564922A379286009D4E88 /* DatabaseHelpers.swift */; };
+		6D25649B2A379286009D4E88 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564932A379286009D4E88 /* Push.swift */; };
+		6D25649C2A379286009D4E88 /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2564942A379286009D4E88 /* Ref.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D2564722A37910E009D4E88 /* HB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2564752A37910E009D4E88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D2564772A37910E009D4E88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D2564792A37910E009D4E88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D25647C2A37910E009D4E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D25647E2A37910F009D4E88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D2564812A37910F009D4E88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D2564832A37910F009D4E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D25648A2A37921A009D4E88 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		6D25648D2A379286009D4E88 /* RealmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		6D25648E2A379286009D4E88 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		6D25648F2A379286009D4E88 /* StorageHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageHelpers.swift; sourceTree = "<group>"; };
+		6D2564902A379286009D4E88 /* BatchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchService.swift; sourceTree = "<group>"; };
+		6D2564912A379286009D4E88 /* Queries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queries.swift; sourceTree = "<group>"; };
+		6D2564922A379286009D4E88 /* DatabaseHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelpers.swift; sourceTree = "<group>"; };
+		6D2564932A379286009D4E88 /* Push.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		6D2564942A379286009D4E88 /* Ref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,39 @@
 		6D2564742A37910E009D4E88 /* HB */ = {
 			isa = PBXGroup;
 			children = (
-				6D2564752A37910E009D4E88 /* AppDelegate.swift */,
-				6D2564772A37910E009D4E88 /* SceneDelegate.swift */,
-				6D2564792A37910E009D4E88 /* ViewController.swift */,
-				6D25647B2A37910E009D4E88 /* Main.storyboard */,
-				6D25647E2A37910F009D4E88 /* Assets.xcassets */,
-				6D2564802A37910F009D4E88 /* LaunchScreen.storyboard */,
-				6D2564832A37910F009D4E88 /* Info.plist */,
+				6D25648C2A379254009D4E88 /* API */,
+				6D2564892A379119009D4E88 /* Application */,
 			);
 			path = HB;
+			sourceTree = "<group>";
+		};
+		6D2564892A379119009D4E88 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6D2564752A37910E009D4E88 /* AppDelegate.swift */,
+				6D2564772A37910E009D4E88 /* SceneDelegate.swift */,
+				6D25648A2A37921A009D4E88 /* data.json */,
+				6D2564802A37910F009D4E88 /* LaunchScreen.storyboard */,
+				6D25647E2A37910F009D4E88 /* Assets.xcassets */,
+				6D25647B2A37910E009D4E88 /* Main.storyboard */,
+				6D2564832A37910F009D4E88 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6D25648C2A379254009D4E88 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6D2564902A379286009D4E88 /* BatchService.swift */,
+				6D25648E2A379286009D4E88 /* Database.swift */,
+				6D2564922A379286009D4E88 /* DatabaseHelpers.swift */,
+				6D2564932A379286009D4E88 /* Push.swift */,
+				6D2564912A379286009D4E88 /* Queries.swift */,
+				6D25648D2A379286009D4E88 /* RealmHelper.swift */,
+				6D2564942A379286009D4E88 /* Ref.swift */,
+				6D25648F2A379286009D4E88 /* StorageHelpers.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +168,7 @@
 				6D2564822A37910F009D4E88 /* LaunchScreen.storyboard in Resources */,
 				6D25647F2A37910F009D4E88 /* Assets.xcassets in Resources */,
 				6D25647D2A37910E009D4E88 /* Main.storyboard in Resources */,
+				6D25648B2A37921A009D4E88 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D25647A2A37910E009D4E88 /* ViewController.swift in Sources */,
+				6D25649A2A379286009D4E88 /* DatabaseHelpers.swift in Sources */,
 				6D2564762A37910E009D4E88 /* AppDelegate.swift in Sources */,
+				6D2564952A379286009D4E88 /* RealmHelper.swift in Sources */,
+				6D2564992A379286009D4E88 /* Queries.swift in Sources */,
+				6D25649B2A379286009D4E88 /* Push.swift in Sources */,
+				6D2564982A379286009D4E88 /* BatchService.swift in Sources */,
+				6D2564962A379286009D4E88 /* Database.swift in Sources */,
+				6D2564972A379286009D4E88 /* StorageHelpers.swift in Sources */,
 				6D2564782A37910E009D4E88 /* SceneDelegate.swift in Sources */,
+				6D25649C2A379286009D4E88 /* Ref.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
