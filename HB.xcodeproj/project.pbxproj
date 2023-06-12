@@ -200,6 +200,31 @@
 		6D2566412A37942C009D4E88 /* MomentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566172A37942C009D4E88 /* MomentCard.swift */; };
 		6D2566422A37942C009D4E88 /* HostingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566182A37942C009D4E88 /* HostingCell.swift */; };
 		6D2566432A37942C009D4E88 /* FollowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566192A37942C009D4E88 /* FollowCard.swift */; };
+		6D25665E2A3794AA009D4E88 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566452A3794AA009D4E88 /* Report.swift */; };
+		6D25665F2A3794AA009D4E88 /* BlockedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566462A3794AA009D4E88 /* BlockedUser.swift */; };
+		6D2566602A3794AA009D4E88 /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566472A3794AA009D4E88 /* Wish.swift */; };
+		6D2566612A3794AA009D4E88 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566482A3794AA009D4E88 /* UserViewModel.swift */; };
+		6D2566622A3794AA009D4E88 /* WishSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566492A3794AA009D4E88 /* WishSearch.swift */; };
+		6D2566632A3794AA009D4E88 /* Connects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664A2A3794AA009D4E88 /* Connects.swift */; };
+		6D2566642A3794AA009D4E88 /* UserJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664B2A3794AA009D4E88 /* UserJson.swift */; };
+		6D2566652A3794AA009D4E88 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664C2A3794AA009D4E88 /* HistoryViewModel.swift */; };
+		6D2566662A3794AA009D4E88 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664D2A3794AA009D4E88 /* Message.swift */; };
+		6D2566672A3794AA009D4E88 /* WishViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664E2A3794AA009D4E88 /* WishViewModel.swift */; };
+		6D2566682A3794AA009D4E88 /* RoomNotify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25664F2A3794AA009D4E88 /* RoomNotify.swift */; };
+		6D2566692A3794AA009D4E88 /* PushData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566502A3794AA009D4E88 /* PushData.swift */; };
+		6D25666A2A3794AA009D4E88 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566512A3794AA009D4E88 /* User.swift */; };
+		6D25666B2A3794AA009D4E88 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566522A3794AA009D4E88 /* ActivityViewModel.swift */; };
+		6D25666C2A3794AA009D4E88 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566532A3794AA009D4E88 /* Room.swift */; };
+		6D25666D2A3794AA009D4E88 /* RoomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566542A3794AA009D4E88 /* RoomUserViewModel.swift */; };
+		6D25666E2A3794AA009D4E88 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566552A3794AA009D4E88 /* Onboarding.swift */; };
+		6D25666F2A3794AA009D4E88 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566562A3794AA009D4E88 /* Request.swift */; };
+		6D2566702A3794AA009D4E88 /* RandomWish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566572A3794AA009D4E88 /* RandomWish.swift */; };
+		6D2566712A3794AA009D4E88 /* RoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566582A3794AA009D4E88 /* RoomViewModel.swift */; };
+		6D2566722A3794AA009D4E88 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2566592A3794AA009D4E88 /* Activity.swift */; };
+		6D2566732A3794AA009D4E88 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25665A2A3794AA009D4E88 /* Vote.swift */; };
+		6D2566742A3794AA009D4E88 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25665B2A3794AA009D4E88 /* History.swift */; };
+		6D2566752A3794AA009D4E88 /* Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25665C2A3794AA009D4E88 /* Connect.swift */; };
+		6D2566762A3794AA009D4E88 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25665D2A3794AA009D4E88 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -400,6 +425,31 @@
 		6D2566172A37942C009D4E88 /* MomentCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCard.swift; sourceTree = "<group>"; };
 		6D2566182A37942C009D4E88 /* HostingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostingCell.swift; sourceTree = "<group>"; };
 		6D2566192A37942C009D4E88 /* FollowCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowCard.swift; sourceTree = "<group>"; };
+		6D2566452A3794AA009D4E88 /* Report.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		6D2566462A3794AA009D4E88 /* BlockedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedUser.swift; sourceTree = "<group>"; };
+		6D2566472A3794AA009D4E88 /* Wish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		6D2566482A3794AA009D4E88 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		6D2566492A3794AA009D4E88 /* WishSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishSearch.swift; sourceTree = "<group>"; };
+		6D25664A2A3794AA009D4E88 /* Connects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connects.swift; sourceTree = "<group>"; };
+		6D25664B2A3794AA009D4E88 /* UserJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserJson.swift; sourceTree = "<group>"; };
+		6D25664C2A3794AA009D4E88 /* HistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		6D25664D2A3794AA009D4E88 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6D25664E2A3794AA009D4E88 /* WishViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishViewModel.swift; sourceTree = "<group>"; };
+		6D25664F2A3794AA009D4E88 /* RoomNotify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomNotify.swift; sourceTree = "<group>"; };
+		6D2566502A3794AA009D4E88 /* PushData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushData.swift; sourceTree = "<group>"; };
+		6D2566512A3794AA009D4E88 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D2566522A3794AA009D4E88 /* ActivityViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		6D2566532A3794AA009D4E88 /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		6D2566542A3794AA009D4E88 /* RoomUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomUserViewModel.swift; sourceTree = "<group>"; };
+		6D2566552A3794AA009D4E88 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		6D2566562A3794AA009D4E88 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		6D2566572A3794AA009D4E88 /* RandomWish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomWish.swift; sourceTree = "<group>"; };
+		6D2566582A3794AA009D4E88 /* RoomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewModel.swift; sourceTree = "<group>"; };
+		6D2566592A3794AA009D4E88 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		6D25665A2A3794AA009D4E88 /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		6D25665B2A3794AA009D4E88 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		6D25665C2A3794AA009D4E88 /* Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect.swift; sourceTree = "<group>"; };
+		6D25665D2A3794AA009D4E88 /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -432,6 +482,7 @@
 		6D2564742A37910E009D4E88 /* HB */ = {
 			isa = PBXGroup;
 			children = (
+				6D2566442A3794AA009D4E88 /* Models */,
 				6D2565E52A37942C009D4E88 /* Helpers */,
 				6D25649D2A379348009D4E88 /* Flows */,
 				6D25648C2A379254009D4E88 /* API */,
@@ -1134,6 +1185,38 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		6D2566442A3794AA009D4E88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D2566452A3794AA009D4E88 /* Report.swift */,
+				6D2566462A3794AA009D4E88 /* BlockedUser.swift */,
+				6D2566472A3794AA009D4E88 /* Wish.swift */,
+				6D2566482A3794AA009D4E88 /* UserViewModel.swift */,
+				6D2566492A3794AA009D4E88 /* WishSearch.swift */,
+				6D25664A2A3794AA009D4E88 /* Connects.swift */,
+				6D25664B2A3794AA009D4E88 /* UserJson.swift */,
+				6D25664C2A3794AA009D4E88 /* HistoryViewModel.swift */,
+				6D25664D2A3794AA009D4E88 /* Message.swift */,
+				6D25664E2A3794AA009D4E88 /* WishViewModel.swift */,
+				6D25664F2A3794AA009D4E88 /* RoomNotify.swift */,
+				6D2566502A3794AA009D4E88 /* PushData.swift */,
+				6D2566512A3794AA009D4E88 /* User.swift */,
+				6D2566522A3794AA009D4E88 /* ActivityViewModel.swift */,
+				6D2566532A3794AA009D4E88 /* Room.swift */,
+				6D2566542A3794AA009D4E88 /* RoomUserViewModel.swift */,
+				6D2566552A3794AA009D4E88 /* Onboarding.swift */,
+				6D2566562A3794AA009D4E88 /* Request.swift */,
+				6D2566572A3794AA009D4E88 /* RandomWish.swift */,
+				6D2566582A3794AA009D4E88 /* RoomViewModel.swift */,
+				6D2566592A3794AA009D4E88 /* Activity.swift */,
+				6D25665A2A3794AA009D4E88 /* Vote.swift */,
+				6D25665B2A3794AA009D4E88 /* History.swift */,
+				6D25665C2A3794AA009D4E88 /* Connect.swift */,
+				6D25665D2A3794AA009D4E88 /* Annotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1211,6 +1294,7 @@
 			files = (
 				6D25656D2A379348009D4E88 /* SignEmailViewController.swift in Sources */,
 				6D25661F2A37942C009D4E88 /* UserLocation.swift in Sources */,
+				6D2566762A3794AA009D4E88 /* Annotation.swift in Sources */,
 				6D25655C2A379348009D4E88 /* AppCoordinator.swift in Sources */,
 				6D2565B32A379348009D4E88 /* ProfileCoordinators.swift in Sources */,
 				6D2566332A37942C009D4E88 /* FormRowStaticView.swift in Sources */,
@@ -1220,6 +1304,7 @@
 				6D25657B2A379348009D4E88 /* PeopleCell.swift in Sources */,
 				6D2566372A37942C009D4E88 /* EmptyErrorView.swift in Sources */,
 				6D25662A2A37942C009D4E88 /* ErrorView.swift in Sources */,
+				6D2566702A3794AA009D4E88 /* RandomWish.swift in Sources */,
 				6D2565C72A379348009D4E88 /* ProfileSegmentView.swift in Sources */,
 				6D25656A2A379348009D4E88 /* SignView.swift in Sources */,
 				6D2565622A379348009D4E88 /* SignUpViewModel.swift in Sources */,
@@ -1229,12 +1314,16 @@
 				6D25655E2A379348009D4E88 /* InitialViewController.swift in Sources */,
 				6D2565BB2A379348009D4E88 /* FollowView.swift in Sources */,
 				6D2565C82A379348009D4E88 /* ProfileViewModel.swift in Sources */,
+				6D2566612A3794AA009D4E88 /* UserViewModel.swift in Sources */,
 				6D2565C62A379348009D4E88 /* ProfileErrorView.swift in Sources */,
 				6D2566222A37942C009D4E88 /* KeyboardHelper.swift in Sources */,
 				6D2565D32A379348009D4E88 /* HouseView.swift in Sources */,
 				6D2565B82A379348009D4E88 /* SettingsViewModel.swift in Sources */,
+				6D25665F2A3794AA009D4E88 /* BlockedUser.swift in Sources */,
 				6D2565DA2A379348009D4E88 /* NewMemberCell.swift in Sources */,
 				6D2565C52A379348009D4E88 /* ProfileVerifiedTitleView.swift in Sources */,
+				6D25666A2A3794AA009D4E88 /* User.swift in Sources */,
+				6D2566622A3794AA009D4E88 /* WishSearch.swift in Sources */,
 				6D2565692A379348009D4E88 /* SignViewModel.swift in Sources */,
 				6D25657C2A379348009D4E88 /* PeopleSearchCell.swift in Sources */,
 				6D2565CF2A379348009D4E88 /* TopWishesViewController.swift in Sources */,
@@ -1258,6 +1347,7 @@
 				6D2565B92A379348009D4E88 /* SettingsViewController.swift in Sources */,
 				6D2566392A37942C009D4E88 /* AvatarCircle.swift in Sources */,
 				6D25661A2A37942C009D4E88 /* Constants.swift in Sources */,
+				6D2566732A3794AA009D4E88 /* Vote.swift in Sources */,
 				6D25663E2A37942C009D4E88 /* PlaceholderWebImage.swift in Sources */,
 				6D2564992A379286009D4E88 /* Queries.swift in Sources */,
 				6D2565CC2A379348009D4E88 /* CityViewModel.swift in Sources */,
@@ -1268,6 +1358,7 @@
 				6D2565B22A379348009D4E88 /* AddWishCoordinator.swift in Sources */,
 				6D2565932A379348009D4E88 /* CompleteViewModel.swift in Sources */,
 				6D2565D52A379348009D4E88 /* FeedCoordinator.swift in Sources */,
+				6D2566602A3794AA009D4E88 /* Wish.swift in Sources */,
 				6D2565E22A379348009D4E88 /* RoomSettingsHeaderCell.swift in Sources */,
 				6D2565A12A379348009D4E88 /* FullHistoryViewModel.swift in Sources */,
 				6D2565852A379348009D4E88 /* InterestingHistoriesCell.swift in Sources */,
@@ -1278,6 +1369,7 @@
 				6D25659F2A379348009D4E88 /* RequestCell.swift in Sources */,
 				6D2566322A37942C009D4E88 /* UIButtonFactory.swift in Sources */,
 				6D2565832A379348009D4E88 /* NewbieCell.swift in Sources */,
+				6D25666B2A3794AA009D4E88 /* ActivityViewModel.swift in Sources */,
 				6D25663F2A37942C009D4E88 /* ActivityCard.swift in Sources */,
 				6D25663B2A37942C009D4E88 /* PullToRefresh.swift in Sources */,
 				6D2565B42A379348009D4E88 /* EditProfileView.swift in Sources */,
@@ -1289,17 +1381,24 @@
 				6D2566302A37942C009D4E88 /* UIPageControlFactory.swift in Sources */,
 				6D2565B72A379348009D4E88 /* SettingsView.swift in Sources */,
 				6D25663C2A37942C009D4E88 /* List+Separator.swift in Sources */,
+				6D25666C2A3794AA009D4E88 /* Room.swift in Sources */,
 				6D2565982A379348009D4E88 /* WishMomentsViewController.swift in Sources */,
 				6D2565992A379348009D4E88 /* WishButtonsView.swift in Sources */,
+				6D2566692A3794AA009D4E88 /* PushData.swift in Sources */,
+				6D25666E2A3794AA009D4E88 /* Onboarding.swift in Sources */,
 				6D2565CE2A379348009D4E88 /* CityViewController.swift in Sources */,
 				6D25658C2A379348009D4E88 /* AddHistoryViewController.swift in Sources */,
 				6D2565BF2A379348009D4E88 /* ActivitiesViewController.swift in Sources */,
 				6D25649B2A379286009D4E88 /* Push.swift in Sources */,
 				6D2565902A379348009D4E88 /* ImagePickerViewController.swift in Sources */,
+				6D2566672A3794AA009D4E88 /* WishViewModel.swift in Sources */,
 				6D2565A22A379348009D4E88 /* FullHistoryViewController.swift in Sources */,
 				6D2565642A379348009D4E88 /* VerifyPhoneView.swift in Sources */,
 				6D2565BD2A379348009D4E88 /* ActivitiesView.swift in Sources */,
+				6D2566642A3794AA009D4E88 /* UserJson.swift in Sources */,
+				6D2566722A3794AA009D4E88 /* Activity.swift in Sources */,
 				6D2565CA2A379348009D4E88 /* CityMomentsViewController.swift in Sources */,
+				6D2566712A3794AA009D4E88 /* RoomViewModel.swift in Sources */,
 				6D2565772A379348009D4E88 /* WishMKAnnotationView.swift in Sources */,
 				6D2564982A379286009D4E88 /* BatchService.swift in Sources */,
 				6D2565DE2A379348009D4E88 /* RoomBannedViewController.swift in Sources */,
@@ -1308,6 +1407,7 @@
 				6D2565E12A379348009D4E88 /* RoomCell.swift in Sources */,
 				6D2566422A37942C009D4E88 /* HostingCell.swift in Sources */,
 				6D2565C42A379348009D4E88 /* ProfileHeaderCell.swift in Sources */,
+				6D2566742A3794AA009D4E88 /* History.swift in Sources */,
 				6D2565A02A379348009D4E88 /* RequestsViewController.swift in Sources */,
 				6D25657D2A379348009D4E88 /* PeopleSearchViewController.swift in Sources */,
 				6D2565862A379348009D4E88 /* UserCell.swift in Sources */,
@@ -1316,9 +1416,11 @@
 				6D2564962A379286009D4E88 /* Database.swift in Sources */,
 				6D2565682A379348009D4E88 /* SignPhoneViewController.swift in Sources */,
 				6D2565E02A379348009D4E88 /* RoomsViewModel.swift in Sources */,
+				6D2566682A3794AA009D4E88 /* RoomNotify.swift in Sources */,
 				6D2565872A379348009D4E88 /* InterestingPeopleCell.swift in Sources */,
 				6D25659D2A379348009D4E88 /* RequestModalView.swift in Sources */,
 				6D2565922A379348009D4E88 /* CompleteViewController.swift in Sources */,
+				6D2566652A3794AA009D4E88 /* HistoryViewModel.swift in Sources */,
 				6D2565AE2A379348009D4E88 /* AddWishTypeViewController.swift in Sources */,
 				6D2565C32A379348009D4E88 /* ProfileViewController.swift in Sources */,
 				6D2565712A379348009D4E88 /* OnboardingCell.swift in Sources */,
@@ -1327,7 +1429,10 @@
 				6D2565B62A379348009D4E88 /* EditProfileViewModel.swift in Sources */,
 				6D2565B12A379348009D4E88 /* AddWishViewController.swift in Sources */,
 				6D2566262A37942C009D4E88 /* LocalizedText.swift in Sources */,
+				6D2566752A3794AA009D4E88 /* Connect.swift in Sources */,
 				6D2565722A379348009D4E88 /* OnboardingViewModel.swift in Sources */,
+				6D2566662A3794AA009D4E88 /* Message.swift in Sources */,
+				6D25666D2A3794AA009D4E88 /* RoomUserViewModel.swift in Sources */,
 				6D25659E2A379348009D4E88 /* RequestViewModel.swift in Sources */,
 				6D2565D12A379348009D4E88 /* SearchViewModel.swift in Sources */,
 				6D2565BE2A379348009D4E88 /* ActivitiesViewModel.swift in Sources */,
@@ -1347,6 +1452,7 @@
 				6D2565D62A379348009D4E88 /* RoomSettingsViewModel.swift in Sources */,
 				6D2565DC2A379348009D4E88 /* CustomTextMessageCollectionViewCell.swift in Sources */,
 				6D2565952A379348009D4E88 /* WishDetailViewModel.swift in Sources */,
+				6D2566632A3794AA009D4E88 /* Connects.swift in Sources */,
 				6D2565D22A379348009D4E88 /* HouseViewModel.swift in Sources */,
 				6D2565D92A379348009D4E88 /* MessageViewController.swift in Sources */,
 				6D2565B02A379348009D4E88 /* AddWishView.swift in Sources */,
@@ -1365,9 +1471,11 @@
 				6D2564782A37910E009D4E88 /* SceneDelegate.swift in Sources */,
 				6D2565762A379348009D4E88 /* MapViewWishCard.swift in Sources */,
 				6D2565702A379348009D4E88 /* OnboardingViewController.swift in Sources */,
+				6D25666F2A3794AA009D4E88 /* Request.swift in Sources */,
 				6D2565D02A379348009D4E88 /* SearchViewController.swift in Sources */,
 				6D25658F2A379348009D4E88 /* CameraHistoryViewController.swift in Sources */,
 				6D25659A2A379348009D4E88 /* WishCell.swift in Sources */,
+				6D25665E2A3794AA009D4E88 /* Report.swift in Sources */,
 				6D25659C2A379348009D4E88 /* SkeletonWishCell.swift in Sources */,
 				6D2565892A379348009D4E88 /* InterestingNewbieCell.swift in Sources */,
 				6D2565652A379348009D4E88 /* VerifyPhoneViewController.swift in Sources */,
